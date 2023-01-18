@@ -8,7 +8,7 @@
   <img src="https://graph.org/file/2f0c96f423cfd33704f8f.jpg">
 </p>
 ━━━━━━━━━━━━━━━━━━━━
-**ᴄᴀɴᴅʏ ǫᴜᴇᴇɴ ᴄʜᴀᴛʙᴏᴛ**
+**𝑲𝑼𝑺𝑯𝑰 𝑴𝑼𝑺𝑰𝑪 𝑩𝑶𝑻**
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
