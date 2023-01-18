@@ -14,10 +14,10 @@ import os
 import re
 
 
-API_ID = os.environ.get("API_ID", "15599295") 
-API_HASH = os.environ.get("API_HASH", "4ce42998f7df4a64934294dadca28ae0") 
-SESSION_NAME = os.environ.get("SESSION_NAME", "")
-MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://its_star_boi:7234049299@cluster0.8twjh9e.mongodb.net/?retryWrites=true&w=majority") 
+API_ID = os.environ.get("API_ID", "22737009") 
+API_HASH = os.environ.get("API_HASH", "049241d7262be025e7033a10d4577f00") 
+SESSION_NAME = os.environ.get("SESSION_NAME", "AQBh54z91RAusJeL9fKuBsa9FUHaT9-VSr280XubPlB2q0Q8YqJY_0fgwqBYHpwnPOfd3gHdI5tyf5RH9-BHdvXb4Xl24jgmfEjzCYMtlWaaPZIZWZ53KDWpjhvPs-NcNjCS2c6rzF-0r6mViQqsYArfVi6ejzPfhaZkCWLUWJ1o4JKBmYUHEdOVJv9Jb3wC-ENeV_Deh7mcyJRQt7KNMDvgjfxqK0qFeftp9s7m0ewVqR9dHhwxDQKnWqsD5yuhHJth-2NjwlIONQ_YxBRB4nwE5cr7ioP3opEHaiAN8CA0yViqLwY3rrdts6ZRViF4hXCEOp0E4CP-y5DfWGy_Hjq7AAAAAWAC50AA")
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://Loki990:loki7557513977@cluster0.96sazsa.mongodb.net/?retryWrites=true&w=majority") 
 
 
 client = Client(SESSION_NAME, API_ID, API_HASH)
@@ -38,21 +38,21 @@ async def chatbot(client, message):
     umm = await message.reply_sticker("CAACAgIAAxkBAAEForNjAykaq_efq4Wd-9KZv-nNxJRn3AACIgMAAm2wQgO8x8PfoXC1eCkE")
     await asyncio.sleep(2)
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/3f7c8a1feb6ae7e41e925.jpg",
+        photo=f"https://graph.org/file/2a681a4f676ba7ae8dd37.jpg",
         caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━
 💥 A ᴘᴏᴡᴇʀғᴜʟ ᴀɪ ʙᴏᴛ
-ᴏғ ♻️ 𝐒𝐓𝐀𝐑 𓆩🇽𓆪 𝐁𝐎𝐈 🔥
+ᴏғ ❤️‍🔥🦋 ➤⃟≛⃝👑 𝐁𝐑𝐀𝐍𝐃𝐄𝐃🖤⃝≛ 𝗞𝗜𝗡𝗚✹⃟➖⋆🦋🥂
 ━━━━━━━━━━━━━━━━━
 ᴅᴀᴛᴀʙᴀsᴇ ʙᴀᴄᴋᴇɴᴅ ʙᴏᴛ ғᴏʀ ᴛɢ...
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴄʀᴇᴀᴛᴇʀ [𝐒𝐓𝐀𝐑 𓆩🇽𓆪 𝐁𝐎𝐈](https://t.me/its_star_boi)
-┣★ ʙᴏᴛ ᴜᴏᴅᴀᴛᴇs [ᴏᴜʀ ᴏᴛʜᴇʀ ʙᴏᴛs](https://t.me/Star_X_Network)
-┣★ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ [ᴄʜᴀᴛ](https://t.me/Best_FriendsFor_Ever)
+┣★ ᴄʀᴇᴀᴛᴇʀ [➤⃟≛⃝👑 𝐁𝐑𝐀𝐍𝐃𝐄𝐃🖤⃝≛ 𝗞𝗜𝗡𝗚✹⃟➖⋆](https://t.me/King82w)
+┣★ ʙᴏᴛ ᴜᴏᴅᴀᴛᴇs [ᴏᴜʀ ᴏᴛʜᴇʀ ʙᴏᴛs](https://t.me/networkwcg)
+┣★ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ [ᴄʜᴀᴛ](https://t.me/Worldchattinggroup0)
 ┗━━━━━━━━━━━━━━━━━┛
 💞 
-IF HAVE ANY QUESTION THEN CONTACT » TO » MY » [OWNER] @Its_star_boi""",
+IF HAVE ANY QUESTION THEN CONTACT » TO » MY » [OWNER] @King82w""",
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🌼 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 💮", url=f"https://t.me/Best_FriendsFor_Ever")]]
+            [[InlineKeyboardButton("🌼 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 💮", url=f"https://t.me/Worldchattinggroup0")]]
         ),
     ) 
 
@@ -61,7 +61,7 @@ IF HAVE ANY QUESTION THEN CONTACT » TO » MY » [OWNER] @Its_star_boi""",
     filters.command("alive", prefixes=["/", ".", "?", "-"])
     & ~filters.private)
 async def start(client, message):
-    await message.reply_text(f"**ᴄᴀɴᴅʏ ǫᴜᴇᴇɴ ɪs ᴀʟɪᴠᴇ**")
+    await message.reply_text(f"**𝐊𝐔𝐒𝐇𝐈 𝐂𝐇𝐀𝐓 𝐁𝐎𝐓 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄 **")
     
     
 @client.on_message(
