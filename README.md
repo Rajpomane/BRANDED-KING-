@@ -5,7 +5,7 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 <p align="center">
-  <img src="https://telegra.ph/file/b2b4fee33e6c7d2a5651a.jpg">
+  <img src="https://graph.org/file/2f0c96f423cfd33704f8f.jpg">
 </p>
 ━━━━━━━━━━━━━━━━━━━━
 **ᴄᴀɴᴅʏ ǫᴜᴇᴇɴ ᴄʜᴀᴛʙᴏᴛ**
